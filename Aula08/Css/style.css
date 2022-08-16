@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #131313;
+}
+
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+}
+.media-picture {
+    height: 400px;
+    margin-bottom: 12px;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2019/04/filmes-pra-assistir-antes-de-endgame.png?quality=100&strip=info&resize=850,567);
+}
+
+.review-score{
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+}
+h2{
+    padding: 12px;
+    color: steelblue;
+}
+p{
+    color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color: yellow;
+}
