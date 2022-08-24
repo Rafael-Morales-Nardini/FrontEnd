@@ -22,7 +22,6 @@ header{
     font-family: 'Roboto', sans-serif;
 }
 div {
- display: inline-block;
  border-radius: 24px;
  background-color: #F3F3F3;;
  width: 374px;
@@ -32,12 +31,8 @@ div {
 main{
     padding:36px;
 }
-.Card1 {
-    margin-left: 112px;
-    margin-right: 86px;
-}
-.Card2{
-    margin-right: 78px;
+.Card {
+    height: fit-content;
 }
 img{
     position: relative;
@@ -88,9 +83,16 @@ button{
     background-position: left;
 }
 footer{
-    margin-top: 151px;
     background-color: #00669F;
     padding: 16px 0 16px 28px;
     color:white;
     font-family: 'Roboto', sans-serif;
+}
+.Group{
+    display:flex;
+    justify-content: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin:70px;
 }
