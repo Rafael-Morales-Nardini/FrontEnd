@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fredoka+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: black;
+}
+.header_list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0 12px;
+}
+.header_purple{
+color: #442057FF;
+}
+.header_yellow{
+color: #FCF951FF;
+}
+.Hat_icon{
+height: 40px;
+}
+.nav_list{
+display: flex;
+font-family: 'Roboto', sans-serif;
+list-style: none;
+}
+.navigation{
+font-size: 1.1rem;
+padding:  12px 8px;
+text-decoration: none;
+}
+.pur{
+    color:#442057FF;
+    }
+.yel{
+    color:#FCF951FF;
+}
+    .img_snack{
+        width:100%;
+        height: 100vh;
+        background-size: cover;
+
+    }
+    .Banner_image{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .Banner_wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -35%;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        font-family: 'Fredoka One', cursive;
+    }
+    .yell{
+        color:rgb(240, 236, 20);
+    }
+    .Cat_paw{
+        display: block;
+        margin: 23% auto 0;
+        height: 150px;
+    }
+    main{
+        background-color: rgb(238, 240, 240);
+        width: 100%;
+    }
+    .Gallery_name{
+        display: flex;
+        font-family: 'Fredoka One', cursive;
+       font-size: 1.5rem;
+       justify-content: center;
+       padding: 15px;
+    }
+    .Card_wrap{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 20px;
+        
+    }
+    .Card{
+        height: fit-content;
+        box-sizing: content-box;
+        width: 300px;
+        background-color: rgb(128, 126, 126);
+        border-radius: 24px;
+        overflow: hidden;
+    }
+    .Photo{
+        width: 100%;
+        height: 200px;
+    }
+    .pop{
+        background-image: url(./Pop\ \(1\).jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .pop1{
+        background-image: url(./Pop\ \(2\).jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .pop2{
+        background-image: url(./Pop\ \(3\).jpeg);
+        background-size: cover;
+        background-position: 0 -20px;
+    }
+    .pop3{
+        background-image: url(./Pop\ \(4\).jpeg);
+        background-size: cover;
+        background-position: 0 -50px;
+    }
+    .pop4{
+        background-image: url(./Pop\ \(5\).jpeg);
+        background-size: cover;
+        background-position: 0 -50px;
+    }
+    .pop5{
+        background-image: url(./Pop\ \(6\).jpeg);
+        background-size: cover;
+        background-position: 0 -50px;
+    }
+    .Photo_content{
+        padding:0 20px;
+    }
+    .Icon_em_pe{
+        position: relative;
+        height: 60px;
+        top: -70px;
+        left: 10px;
+    }
+    .Photo_rating{
+        display: flex;
+        list-style: none;
+        font-family: 'Roboto', sans-serif;
+        justify-content: flex-end;
+        margin-top: -60px;
+        padding: 10px;
+    }
+.Star{
+    height: 20px;
+}
+.Video_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Video_text{
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+}
+.footer{
+    background-color: #C4C4C4;
+    font-family:'Roboto', sans-serif;
+    padding: 10px 30px;
+}
+.legend{
+ font-size: 1.5rem;
+}
+.row_flex{
+    display: flex;
+    gap: 50px;
+justify-content: center;
+flex-wrap: wrap;
+}
+.footer_style{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ gap: 10px;
+ 
+}
+.footer_image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+iframe{
+    margin-bottom: 30px;
+}
+.no_deco{
+    text-decoration: none;
+}
+@media(max-width: 860px){
+    .Banner_wrap{
+        font-size: 1.5rem;
+    }
+    .legend{
+        font-size: 1rem;
+    }
+
+}
+
+@media(max-width:530px){
+    .Banner_wrap{
+        font-size: 0.7rem;
+    }  
+    .legend{
+        font-size: 0.7rem;
+    }
+    .row_flex{
+        flex-direction: column ;
+    }
+    .nav_list{
+        flex-direction: column;
+    }
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+}
