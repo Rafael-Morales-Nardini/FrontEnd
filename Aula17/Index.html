@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        20% de desconto em todos os produtos
+    </header>
+    <div class="Banner">
+        <img class="Shop_icon"src="https://cdn-icons-png.flaticon.com/512/1356/1356559.png" alt="shop_icon">
+        <p class="Logo">FrontShop</p>
+    </div>
+    <div class="Under_banner">
+    <nav>
+        <a href="">Contatos</a>
+        <a href="">Registrar-se</a>
+        <a href="">Login</a>
+    </nav>
+    </div>
+    <main>
+        <form class="Container">
+            <h1>Adicione o seu super-herói</h1>
+            <h2>Complete as informações para adiciona-lo</h2>
+            <div class="row">
+                <div class="column">
+                <label for="formName" >Nome</label>
+                <input  class="bar_style" type="text" id="formName"  minlength="6" maxlength="12"required>
+                </div>
+                <div class="column">
+                <label for="Species">Espécie</label>
+                <select class="bar_style" name="Species" id="Species" >
+                    <option value="1">Humano</option>
+                    <option value="2">Alien</option>
+                    <option value="3">Tritão</option>
+                    <option value="4">Anjo</option>
+                    <option value="5">Demonio</option>
+                    <option value="6">Mutante</option>
+                </select>
+                </div>
+            </div>
+        <div class="row">
+            <div class="column">
+            <label for="Date">Data de nascimento</label>
+            <input class="bar_style" type="date" id="Date" name="Date">
+            </div>
+            <div class="column">
+            <label for="">Envie a imagem do Herói:</label>
+            <input type="file" value="button">
+            </div>
+        </div>
+    <div class="row">
+        <textarea rows="10" cols="32"></textarea>
+        <div class="column">
+        <label for="">Poderes</label>
+        <div class="row"><input type="checkbox" name="Voar" id="1">Voar
+        </div>
+        <div class="row"><input type="checkbox" name="Voar" id="2">Dinheiro
+        </div>
+        <div class="row"><input type="checkbox" name="Voar" id="3">Super-força
+        </div>
+        <div class="row"><input type="checkbox" name="Voar" id="4">Raio laser
+        </div>
+        <hr>
+        <p>Tipo de personagem:</p>
+        <div class="row">
+        <input type="radio" name="Alinhamento" id="">Herói/Heroína
+    </div>
+    <div class="row">
+        <input type="radio" name="Alinhamento" id="">Vilão/Vilã
+    </div>
+        </div>
+        </div>
+        <button type="submit" class="Botao">Confirmar!</button>
+    </form>
+    
+    </main>
+    <footer>Feito por: Rafael Morales Nardini</footer>
+</body>
+</html>
