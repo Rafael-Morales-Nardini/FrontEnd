@@ -1,0 +1,9 @@
+.list{
+display: flex;
+flex-direction: column;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(40, 38, 187);
+}
