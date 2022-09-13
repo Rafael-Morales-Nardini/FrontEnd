@@ -59,6 +59,7 @@ text-decoration: none;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
+    
         
     }
     .Banner_wrap{
@@ -69,6 +70,7 @@ text-decoration: none;
         font-size: 2.5rem;
         font-weight: bolder;
         font-family: 'Fredoka One', cursive;
+    
     }
     .yell{
         color:rgb(240, 236, 20);
@@ -77,6 +79,7 @@ text-decoration: none;
         display: block;
         margin: 23% auto 0;
         height: 150px;
+    
     }
     main{
         background-color: rgb(238, 240, 240);
@@ -228,6 +231,17 @@ iframe{
     .header{
         flex-direction: column;
         align-items: center;
+    }
+    .Banner_image{
+        display: none;
+    }
+    .Banner_wrap{
+        opacity: 0;
+font-size: 2px;
+margin-top: -10px;
+    }
+    .Cat_paw{
+        display: none;
     }
 }
 .Photo:hover{
