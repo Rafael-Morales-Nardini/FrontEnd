@@ -136,7 +136,7 @@ nav ul li a::before{
     animation-duration:  .5s; 
     animation-name: Spinner_spins;
     animation-iteration-count: infinite;
-    animation-delay: 0;
+    animation-timing-function: linear;
  }
  
 @keyframes Spinner_spins{
