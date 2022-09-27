@@ -33,7 +33,7 @@
 .navbar-custom{
     width: 100%;
     background-color: rgb(0, 0, 0) !important;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 50;
     animation-name: animation-header;
@@ -80,7 +80,6 @@
 .wrapper{
     width: 100%;
     margin: 0 auto;
-    margin-top: -82px;
 
 }
 
@@ -295,4 +294,7 @@ footer .col{
  }
  .col-custom p{
   text-align: center;
+ }
+ .title{
+  padding-top: 100px;
  }
